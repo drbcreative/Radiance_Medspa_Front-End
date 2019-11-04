@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "0D4EE5EF-21E4-4EC2-9088-169152330177"
+		"uuidString": "14630220-6CF5-4CB0-9EC7-BCB402A6414C"
 		}
 	],
 "creatorBuild": "31934",
@@ -25,12 +25,12 @@
 		"oAP": "/assets/FONT LIST.txt",
 		"oF": 0
 		},
-	"/assets/Well_Integrative_V11.xd": {
+	"/assets/radiance_medspa_final.xd": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/Well_Integrative_V11.xd",
+		"oAP": "/assets/radiance_medspa_final.xd",
 		"oF": 0
 		},
 	"/css/theme.min.css": {
@@ -81,140 +81,139 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/images/about-us-bg@2x.jpg": {
+	"/images/about-us-slide-1@2x.jpg": {
 		"ft": 16384,
-		"iS": 108567,
+		"iS": 243358,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/about-us-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/images/about-us-img-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 187417,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/about-us-img-1@2x.jpg",
+		"oAP": "/images/about-us-slide-1@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/images/about-us-img-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 118787,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/about-us-img-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/images/appointment-bg@2x.jpg": {
-		"ft": 16384,
-		"iS": 66293,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/appointment-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/auto-immune-bg@2x.jpg": {
-		"ft": 16384,
-		"iS": 842529,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/auto-immune-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/chronic-fatigue-bg@2x.jpg": {
-		"ft": 16384,
-		"iS": 737624,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/chronic-fatigue-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/chronic-illness-bg@2x.jpg": {
-		"ft": 16384,
-		"iS": 221590,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/chronic-illness-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/chronic-illness-img@2x.jpg": {
-		"ft": 16384,
-		"iS": 337763,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/chronic-illness-img@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/footer-2-bg@2x.jpg": {
-		"ft": 16384,
-		"iS": 51490,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/footer-2-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/images/footer-logo.png": {
-		"ft": 32768,
-		"iS": 39832,
-		"oA": 0,
-		"oAP": "/images/footer-logo.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/footer-logo.svg": {
+	"/images/arrow-left.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/footer-logo.svg",
+		"oAP": "/images/arrow-left.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/footer-logo@2x.png": {
-		"ft": 32768,
-		"iS": 96765,
-		"oA": 0,
-		"oAP": "/images/footer-logo@2x.png",
+	"/images/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/arrow-right.svg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/botox-fillers-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 88225,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/botox-fillers-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/botox-img@2x.jpg": {
+		"ft": 16384,
+		"iS": 97085,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/botox-img@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/chemical-peel-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 357981,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/chemical-peel-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/consultation-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 67905,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/consultation-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/fillers-img@2x.jpg": {
+		"ft": 16384,
+		"iS": 137406,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/fillers-img@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/footer-left-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 66262,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/footer-left-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/footer-right-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 30268,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/footer-right-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/hair-removal-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 101245,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/hair-removal-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/hair-removal-img@2x.jpg": {
+		"ft": 16384,
+		"iS": 206072,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/hair-removal-img@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/hero-bg@2x.jpg": {
 		"ft": 16384,
-		"iS": 346287,
+		"iS": 277313,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/hero-bg@2x.jpg",
@@ -223,88 +222,66 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/int-aesthetics-bg@2x.jpg": {
+	"/images/laser-ipl-bg@2x.jpg": {
 		"ft": 16384,
-		"iS": 413138,
+		"iS": 41806,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/int-aesthetics-bg@2x.jpg",
+		"oAP": "/images/laser-ipl-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/images/logo.png": {
-		"ft": 32768,
-		"iS": 19488,
+	"/images/laser-ipl-img@2x.jpg": {
+		"ft": 16384,
+		"iS": 170720,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/logo.png",
+		"oAP": "/images/laser-ipl-img@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"/images/logo.svg": {
+	"/images/logo-header.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/logo.svg",
+		"oAP": "/images/logo-header.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/logo@2x.png": {
+	"/images/nav-divider.png": {
 		"ft": 32768,
-		"iS": 49307,
+		"iS": 92,
 		"oA": 0,
-		"oAP": "/images/logo@2x.png",
+		"oAP": "/images/nav-divider.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/map@2x.jpg": {
-		"ft": 16384,
-		"iS": 75205,
-		"jF": 0,
+	"/images/nav-divider@2x.png": {
+		"ft": 32768,
+		"iS": 94,
 		"oA": 0,
-		"oAP": "/images/map@2x.jpg",
+		"oAP": "/images/nav-divider@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/med-wellness-6months-img@2x.jpg": {
-		"ft": 16384,
-		"iS": 88178,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/med-wellness-6months-img@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/med-wellness-9months-img@2x.jpg": {
-		"ft": 16384,
-		"iS": 84415,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/med-wellness-9months-img@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
-	"/images/med-wellness-access-img@2x.jpg": {
+	"/images/sculpsure-bg@2x.jpg": {
 		"ft": 16384,
-		"iS": 82014,
+		"iS": 390120,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/med-wellness-access-img@2x.jpg",
+		"oAP": "/images/sculpsure-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -318,16 +295,27 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/js/app-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/app-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/app.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/app.min.js",
-		"oF": 2,
+		"oAP": "/js/app-min.js",
+		"oF": 0,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/js/app.min.js": {
 		"bF": 0,
@@ -637,10 +625,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 594146745.93661499,
-	"displayValue": "Well_Integrative_Front-End",
+	"creationDate": 594599319.28355002,
+	"displayValue": "Radiance_Medspa_Front-End",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_magenta",
+	"iconImageName": "brackets-cafe",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

@@ -6,12 +6,12 @@
 .topbar-link {
   font-family: $font-primary;
   font-size: 0.8125rem;
-  font-weight: 700;
-  color: $color-main;
+  // font-weight: 700;
+  color: $color-white;
   @include linkFade;
 
   &:hover {
-    color: $color-accent;
+    color: $color-light-accent;
     text-decoration: none;
     @include linkFade;
   }
@@ -21,13 +21,13 @@
 
 .nav-link {
   font-family: $font-primary !important;
-  color: $color-main !important;
+  color: $color-dark-accent !important;
   font-size: 1rem !important;
   font-weight: 600;
   @include linkFade;
 
   &:hover {
-    color: $color-accent !important;
+    color: $color-light-accent !important;
     text-decoration: none;
     @include linkFade;
   }
@@ -45,7 +45,7 @@
 
   &:hover {
     text-decoration: none;
-    color: $color-accent;
+    color: $color-light-accent;
   }
 }
 
@@ -57,7 +57,7 @@
 
 .small-footer-link {
   @extend .small-copy;
-  color: $color-accent;
+  color: $color-light-accent;
 
   &:hover {
     color: $color-main;

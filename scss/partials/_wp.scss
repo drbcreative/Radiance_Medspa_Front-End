@@ -6,7 +6,7 @@
   font-family: $font-primary;
 
   a {
-    color: $color-accent;
+    color: $color-light-accent;
 
     &:hover {
       color: $color-white;
@@ -179,7 +179,7 @@
 }
 
 .social-link-footer:hover path {
-  fill: $color-accent;
+  fill: $color-light-accent;
 }
 
 .social-link-share {
@@ -200,7 +200,7 @@
   height: 14px;
 
   path {
-    fill: $color-accent;
+    fill: $color-light-accent;
   }
 }
 

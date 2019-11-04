@@ -2,24 +2,46 @@
 /* Navbar ******************************************************************* */
 /* ************************************************************************** */
 .nav-wrapper {
-  background: rgba($color-white, 0);
+  background: rgba($color-white, 1);
   position: relative;
   transition: all .3s ease-in-out;
 
   .container {
     position: relative;
+
+    .logo-box {
+      background: $color-white;
+      width: 270px;
+      height: 150px;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      box-shadow: 0 0 50px rgba($color-black, .2);
+
+      &::after {
+        content: url('../../images/logo-header.svg');
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
   }
 
   &.show {
-    background: rgba($color-white, 1);
+    background: rgba($color-light, 1);
     transition: all .3s ease-in-out;
     box-shadow: 0 6px 8px rgba($color-black, .1);
+  }
+
+  @include isXLarge {
+    background: rgba($color-light, 1);
   }
 }
 
 .navbar {
   .nav-logo {
-    width: 240.82px;
+    width: 203.02px;
     transition: all .3s ease-in-out;
 
     &.show {
@@ -29,8 +51,8 @@
   }
 
   @include isXLarge {
-    padding: .5rem 1rem;
-    align-items: flex-start;
+    padding: 0 1rem;
+    align-items: center;
 
     .navbar-collapse {
       // width: 100%;
@@ -40,6 +62,12 @@
 
   @include isRetina {
     padding: .5rem 0;
+  }
+
+  .navbar-collapse {
+    @include isXLarge {
+      height: 100px;
+    }
   }
 }
 
@@ -64,12 +92,12 @@
   position: relative;
 
   &::after {
-    content: "•";
-    color: $color-accent;
+    content: url('../../images/nav-divider.png');
+    color: $color-light-accent;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -55%);
+    transform: translate(-50%, -65%);
     opacity: 1;
   }
 }
