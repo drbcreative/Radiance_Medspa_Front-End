@@ -1,0 +1,117 @@
+/* ************************************************************************** */
+/* Typography *************************************************************** */
+/* ************************************************************************** */
+@import "https://use.fontawesome.com/releases/v5.4.1/css/all.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Playfair+Display:400,700&display=swap');
+
+$font-primary: 'Open Sans',
+sans-serif;
+$font-secondary: 'Playfair Display',
+serif;
+
+// General Font Setup
+// Headers
+h1,
+h2,
+h3,
+h4,
+h5 h6 {
+  margin: 0 !important;
+}
+
+/* Primary Header */
+h1 {
+  font-family: $font-secondary;
+  font-size: 3.4375rem; // 55px
+  line-height: 3.4375rem;
+
+  &.is-bold {
+    font-weight: 700;
+  }
+
+  &.is-italic {
+    font-style: italic;
+  }
+}
+
+h2 {
+  font-family: $font-secondary;
+  font-size: 3.125rem; // 50px
+  line-height: 3.125rem;
+
+  &.is-italic {
+    font-style: italic;
+  }
+}
+
+h3 {
+  font-family: $font-secondary;
+  font-size: 2.1875rem; // 35px
+  line-height: 2.1875rem;
+}
+
+h4,
+h5,
+h6 {
+  font-family: $font-secondary;
+}
+
+
+//Body Text
+.body-copy {
+  font-size: 1.125rem; // 18px
+  line-height: calc(1.125rem * 1.5);
+  font-family: $font-primary;
+
+  &.is-bold {
+    font-weight: 700;
+  }
+}
+
+/* Lead Text (hero) */
+.lead-copy {
+  font-size: 1.125rem; // 18px
+  line-height: calc(1.125rem * 1.5);
+  font-family: $font-primary;
+  font-weight: 300;
+}
+
+/* Footer2 Text */
+.small-copy {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: calc(12px * 1.5);
+  font-family: $font-primary;
+
+  &.is-semibold {
+    font-weight: 600;
+  }
+
+  &.is-bold {
+    font-weight: 700;
+  }
+}
+
+/* Text Modifiers */
+.wrap-75 {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+input {
+  font-family: $font-primary;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+}

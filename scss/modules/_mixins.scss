@@ -1,0 +1,68 @@
+/* ************************************************************************** */
+/* Media Queries ************************************************************ */
+/* ************************************************************************** */
+/* Med Breakpoint */
+@mixin isMedium {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+/* Large Breakpoint */
+@mixin isLarge {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+/* X-Large Breakpoint */
+@mixin isXLarge {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+/* Retina Breakpoint */
+@mixin isRetina {
+  @media screen and (min-width: 1400px) {
+    @content;
+  }
+}
+
+/* Giant (iMac Status) Breakpoint */
+@mixin isGiant {
+  @media screen and (min-width: 2000px) {
+    @content;
+  }
+}
+
+/* ************************************************************************** */
+/* Section Layout *********************************************************** */
+/* ************************************************************************** */
+@mixin gridCol2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  @content;
+}
+
+@mixin gridCol3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  @content;
+}
+
+@mixin gridCol4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  @content;
+}
+
+/* ************************************************************************** */
+/* Animation **************************************************************** */
+/* ************************************************************************** */
+@mixin linkFade {
+  transition: all .3s ease-in-out;
+}

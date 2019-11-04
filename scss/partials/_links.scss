@@ -1,0 +1,65 @@
+/* ************************************************************************** */
+/* Links ******************************************************************** */
+/* ************************************************************************** */
+
+/* Topbar ******************************************************************* */
+.topbar-link {
+  font-family: $font-primary;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: $color-main;
+  @include linkFade;
+
+  &:hover {
+    color: $color-accent;
+    text-decoration: none;
+    @include linkFade;
+  }
+}
+
+/* Navbar ******************************************************************* */
+
+.nav-link {
+  font-family: $font-primary !important;
+  color: $color-main !important;
+  font-size: 1rem !important;
+  font-weight: 600;
+  @include linkFade;
+
+  &:hover {
+    color: $color-accent !important;
+    text-decoration: none;
+    @include linkFade;
+  }
+
+  @include isXLarge {
+    margin-right: 0;
+    padding: 0 !important;
+  }
+}
+
+/* General Page Links ******************************************************* */
+.gen-page-link {
+  @extend .body-copy;
+  color: $color-main;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-accent;
+  }
+}
+
+/* Footer Links ************************************************************* */
+.footer-nav-link {
+  @extend .gen-page-link;
+  font-size: 1rem;
+}
+
+.small-footer-link {
+  @extend .small-copy;
+  color: $color-accent;
+
+  &:hover {
+    color: $color-main;
+  }
+}
