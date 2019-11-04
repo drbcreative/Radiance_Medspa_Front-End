@@ -1,3 +1,94 @@
 /* ************************************************************************** */
 /* Main Page Sections ******************************************************* */
 /* ************************************************************************** */
+
+/* hero ********************************************************************* */
+.hero {
+  background: url('../../images/hero-bg@2x.jpg') center left / cover;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  @include isMedium {
+    height: 500px;
+  }
+
+  @include isLarge {
+    height: 600px;
+  }
+
+  @include isXLarge {
+    height: 764px;
+    background: url('../../images/hero-bg@2x.jpg') center / cover;
+    margin-top: 128.59px;
+  }
+
+  .containerish {
+    display: grid;
+
+    @include isMedium {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include isLarge {
+      grid-template-columns: 1.5fr 1fr;
+    }
+
+    .section-info {
+      grid-column: 1 / -1;
+
+      p {
+        max-width: 513px;
+      }
+
+      @include isMedium {
+        grid-column: 1;
+      }
+    }
+  }
+
+  .event {
+    background: rgba($color-dark-accent, .9);
+    width: 319px;
+    height: height;
+    padding: 1rem 1.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+
+    .event-title {
+      font-family: $font-primary;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 0;
+      margin: 0;
+    }
+
+    .event-date {
+      font-family: $font-primary;
+      font-size: 12px;
+      font-weight: 300;
+      font-style: italic;
+      padding: 0;
+      margin: 0;
+    }
+
+    .event-rsvp {
+      font-family: $font-primary;
+      font-size: 10px;
+      font-weight: 700;
+      padding: .3rem 1rem;
+      background: $color-white;
+      color: $color-main;
+      @include linkFade;
+
+      &:hover {
+        background: $color-main;
+        color: $color-white;
+        text-decoration: none;
+        @include linkFade;
+      }
+    }
+  }
+}

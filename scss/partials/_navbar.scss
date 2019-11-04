@@ -34,12 +34,13 @@
     box-shadow: 0 6px 8px rgba($color-black, .1);
   }
 
-  @include isXLarge {
+  @include isLarge {
     background: rgba($color-light, 1);
   }
 }
 
 .navbar {
+
   .nav-logo {
     width: 203.02px;
     transition: all .3s ease-in-out;
@@ -61,11 +62,11 @@
   }
 
   @include isRetina {
-    padding: .5rem 0;
+    padding: .5rem 0 !important;
   }
 
   .navbar-collapse {
-    @include isXLarge {
+    @include isLarge {
       height: 100px;
     }
   }
@@ -74,12 +75,16 @@
 .nav-item {
   margin-right: 0;
 
-  @include isXLarge {
-    margin-right: 1.2rem;
+  @include isLarge {
+    margin-right: .8rem;
 
     &.dropdown:hover>.dropdown-menu {
       display: block;
     }
+  }
+
+  @include isXLarge {
+    margin-right: 1.2rem;
   }
 }
 
