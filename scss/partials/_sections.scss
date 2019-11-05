@@ -120,3 +120,58 @@
     }
   }
 }
+
+/* laser & ipl ************************************************************** */
+.laser {
+  .containerish {
+    max-width: 100%;
+    display: grid;
+    height: auto;
+
+    @include isLarge {
+      grid-template-columns: 1fr 1.5fr;
+      height: 500px;
+    }
+
+    @include isXLarge {
+      grid-template-columns: 1fr 1.2fr;
+      height: 700px;
+    }
+
+    @include isRetina {
+      grid-template-columns: 1fr 1.5fr;
+      height: 700px;
+    }
+
+
+    .col-left {
+      height: 50vh;
+      background: url('../../images/laser-ipl-img@2x.jpg') center / cover;
+
+      @include isLarge {
+        height: inherit;
+      }
+    }
+
+    .col-right {
+      background: url('../../images/laser-ipl-bg@2x.jpg') center / cover;
+      padding: 20px 20px;
+      display: flex;
+      align-items: center;
+
+      @include isMedium {
+        height: 500px;
+      }
+
+      @include isLarge {
+        height: inherit;
+        padding: 0 3rem;
+      }
+
+      @include isRetina {
+        height: inherit;
+        padding: 0 10rem;
+      }
+    }
+  }
+}
