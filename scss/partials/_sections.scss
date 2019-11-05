@@ -366,3 +366,48 @@
     }
   }
 }
+
+/* consultation ************************************************************* */
+.consultation {
+  background: url('../../images/consultation-bg@2x.jpg') center / cover;
+  padding: 40px 20px;
+
+  @include isLarge {
+    padding: 80px 20px;
+  }
+
+  .containerish {
+    .section-info {
+      text-align: center;
+    }
+
+    .consult-wrapper {
+      display: grid;
+      row-gap: .5rem;
+      max-width: 700px;
+      margin: 0 auto;
+
+      @include isLarge {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 4rem;
+
+        button {
+          grid-column: 1 / -1;
+          justify-self: center;
+        }
+      }
+
+      .form-control {
+        height: 45px;
+        border-radius: 0;
+        outline: 0;
+        box-shadow: none;
+
+        &:focus {
+          border-color: $color-main;
+        }
+      }
+    }
+  }
+}
