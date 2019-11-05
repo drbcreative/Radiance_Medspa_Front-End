@@ -319,3 +319,50 @@
     }
   }
 }
+
+/* chem peels and facials *************************************************** */
+.chem-peels {
+  background: url('../../images/chemical-peel-bg@2x.jpg') center / cover;
+
+  @include isMedium {
+    height: 600px;
+  }
+
+  @include isLarge {
+    height: 800px;
+  }
+
+  @include isXLarge {
+    height: 1015px;
+  }
+
+  .containerish {
+    position: relative;
+    height: inherit;
+    overflow: visible;
+
+    .section-info {
+      background: rgba($color-white, .9);
+      padding: 1rem 20px;
+
+      @include isMedium {
+        position: absolute;
+        bottom: 0;
+      }
+
+      @include isLarge {
+        width: 500px;
+        box-shadow: 0 3px 50px rgba($color-black, .16);
+        top: 2rem;
+        bottom: initial;
+        right: 2rem;
+      }
+
+      @include isXLarge {
+        width: 650px;
+        padding: 4rem 6rem;
+        top: 4rem;
+      }
+    }
+  }
+}
