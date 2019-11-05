@@ -4,91 +4,72 @@
 
 /* footer 1 ***************************************************************** */
 .footer-1 {
-  padding: 40px 0 40px 0;
-  background: url('../images/footer-2-bg@2x.jpg') center bottom / cover;
+  display: grid;
 
-  .section-info {
-    text-align: center;
-    padding: 0 20px;
+  @include isLarge {
+    grid-template-columns: 1fr 1.5fr;
+  }
 
-    .footer-logo {
-      height: calc(138px - 20%);
-      width: calc(369.58px - 20%);
+  .footer-left {
+    background: url('../../images/footer-left-bg@2x.jpg') center / cover;
+    padding: 40px 20px;
 
-      @include isLarge {
-        height: 138px;
-        width: 369.58px;
+    @include isLarge {
+      padding: 4rem;
+    }
+
+    .section-info {
+      .newsletter {
+        input {
+          width: 100%;
+          height: 45px;
+          margin-bottom: .5rem;
+          padding-left: .5rem;
+
+          @include isLarge {
+            width: 255px;
+            display: block;
+            margin-bottom: 1rem;
+          }
+        }
       }
     }
   }
 
-  .map {
-    background: url('../images/map@2x.jpg') center / cover;
-    height: 200px;
+  .footer-right {
+    padding: 40px 20px;
+    background: url('../../images/footer-right-bg@2x.jpg') center / cover;
 
     @include isLarge {
-      height: 300px;
-    }
-  }
-
-  .newsletter {
-    padding: 20px;
-    text-align: center;
-
-    @include isLarge {
-      padding: 40px 20px 20px 20px;
+      padding: 4rem;
     }
 
-    @include isXLarge {
-      max-width: 1050px;
-      margin: 0 auto;
-    }
-
-    .newsletter-form {
+    .section-info {
       display: grid;
-      row-gap: .5rem;
 
-      input[type="text"],
-      input[type="email"] {
-        border: 1px solid $color-main;
-        border-radius: 25px;
-        text-align: center;
-        height: 40px;
-
-        &::placeholder {
-          @extend .body-copy;
-          color: $color-main;
-        }
+      @include isMedium {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
       }
 
       @include isLarge {
-        grid-template-columns: 1fr 1fr .5fr;
-        column-gap: 1rem;
-        row-gap: 0;
-
-        .ui-btn {
-          height: 40px;
-          line-height: 0;
-        }
+        grid-template-columns: 1.5fr 1fr;
+        column-gap: 3rem;
       }
-    }
-  }
 
-  .footer-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+      .col-left {
+        //something
+      }
 
-    @include isLarge {
-      max-width: 1000px;
-      margin: 0 auto;
-      flex-direction: row;
-      justify-content: space-around;
+      .col-right {
+        .footer-link-wrapper {
+          display: flex;
+          flex-direction: column;
 
-      .footer-nav-divider {
-        height: 4px;
-        width: 4px;
-        background-color: $color-light-accent;
+          .footer-nav-link:not(:last-child) {
+            margin-bottom: .5rem;
+          }
+        }
       }
     }
   }
@@ -96,7 +77,7 @@
 
 /* footer 2 ***************************************************************** */
 .footer2 {
-  // background-color: $color-white;
+  background-color: $color-dark-accent;
   width: 100%;
   padding: 0.6rem 20px;
   height: 50px;
