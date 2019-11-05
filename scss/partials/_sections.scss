@@ -92,3 +92,31 @@
     }
   }
 }
+
+/* search ******************************************************************* */
+.search {
+  padding: 40px 20px;
+
+  .containerish {
+    form {
+      display: grid;
+      row-gap: .5rem;
+
+      input {
+        border: 1px solid $color-light;
+        height: 50px;
+        padding-left: 1rem;
+      }
+
+      @include isXLarge {
+        grid-template-columns: max-content 1fr 220px;
+        column-gap: 1rem;
+        align-items: center;
+
+        button {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
