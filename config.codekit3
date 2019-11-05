@@ -131,7 +131,7 @@
 		"oAP": "/images/botox-img@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/chemical-peel-bg@2x.jpg": {
@@ -164,7 +164,7 @@
 		"oAP": "/images/fillers-img@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/footer-left-bg@2x.jpg": {

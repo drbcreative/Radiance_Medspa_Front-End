@@ -175,3 +175,66 @@
     }
   }
 }
+
+/* about us ***************************************************************** */
+.about-us {
+  padding: 40px 20px;
+
+  .containerish {
+    .slide-show {
+      height: 300px;
+    }
+
+    .section-info {
+      text-align: center;
+      padding: 20px;
+
+      p {
+        max-width: 924px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+/* botox - fillers ********************************************************** */
+.botox-fillers {
+  background: url('../../images/botox-fillers-bg@2x.jpg') center / cover;
+  padding: 40px 0;
+
+  @include isLarge {
+    padding: 60px 0;
+  }
+
+  @include isRetina {
+    padding: 100px 0;
+  }
+
+  .containerish {
+    display: grid;
+    row-gap: 1rem;
+
+    @include isLarge {
+      grid-template-columns: 1fr 1fr;
+      row-gap: 0;
+      column-gap: 3rem;
+    }
+
+    @include isRetina {
+      grid-template-columns: 1fr 1fr;
+      row-gap: 0;
+      column-gap: 6rem;
+    }
+
+    .col-left,
+    .col-right {
+      img {
+        box-shadow: 0 3px 50px rgba($color-black, .15);
+      }
+
+      .section-info {
+        padding: 1rem 20px;
+      }
+    }
+  }
+}
