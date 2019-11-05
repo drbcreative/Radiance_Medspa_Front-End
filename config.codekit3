@@ -51,6 +51,16 @@
 		"oAP": "/css/theme.min.css.map",
 		"oF": 0
 		},
+	"/css/vendor/animate.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/vendor/animate.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/vendor/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -80,17 +90,6 @@
 		"oAP": "/css/vendor/db-animate.min-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/images/about-us-slide-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 243358,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/about-us-slide-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/images/arrow-left.svg": {
 		"ft": 2097152,
@@ -287,6 +286,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/slide-1.jpg": {
+		"ft": 16384,
+		"iS": 243358,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/slide-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/slide-2.jpg": {
+		"ft": 16384,
+		"iS": 755639,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/slide-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/slide-3.jpg": {
+		"ft": 16384,
+		"iS": 734859,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/slide-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -312,8 +344,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/app-min.js",
-		"oF": 0,
+		"oAP": "/js/app.min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 1
 		},
@@ -617,6 +649,156 @@
 		"oAP": "/css/theme.min.css",
 		"oF": 2,
 		"oS": 3,
+		"uL": 1
+		},
+	"/slick/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "/slick/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/slick/config.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/slick/config.rb",
+		"oF": 0
+		},
+	"/slick/fonts/slick.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/slick/fonts/slick.eot",
+		"oF": 0
+		},
+	"/slick/fonts/slick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/slick/fonts/slick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/slick/fonts/slick.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/slick/fonts/slick.ttf",
+		"oF": 0
+		},
+	"/slick/fonts/slick.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/slick/fonts/slick.woff",
+		"oF": 0
+		},
+	"/slick/slick-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/slick/slick-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/slick/slick-theme.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/slick/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/slick/slick-theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/slick/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/slick/slick.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/slick/slick-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/slick/slick.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/slick/slick-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/slick/slick.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/slick/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/slick/slick.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/slick/slick.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/slick/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/slick/slick.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		}
 	},
@@ -1390,7 +1572,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {

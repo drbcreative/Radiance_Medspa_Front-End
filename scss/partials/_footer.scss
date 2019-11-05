@@ -11,7 +11,7 @@
   }
 
   .footer-left {
-    background: url('../../images/footer-left-bg@2x.jpg') center / cover;
+    background: url('../images/footer-left-bg@2x.jpg') center / cover;
     padding: 40px 20px;
 
     @include isLarge {
@@ -38,7 +38,7 @@
 
   .footer-right {
     padding: 40px 20px;
-    background: url('../../images/footer-right-bg@2x.jpg') center / cover;
+    background: url('../images/footer-right-bg@2x.jpg') center / cover;
 
     @include isLarge {
       padding: 4rem;
@@ -46,6 +46,10 @@
 
     .section-info {
       display: grid;
+
+      .body-copy {
+        font-size: 1rem;
+      }
 
       @include isMedium {
         grid-template-columns: 1fr 1fr;

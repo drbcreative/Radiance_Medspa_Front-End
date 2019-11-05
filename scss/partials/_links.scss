@@ -51,8 +51,15 @@
 
 /* Footer Links ************************************************************* */
 .footer-nav-link {
-  @extend .gen-page-link;
-  font-size: 1rem;
+  font-size: 1rem; // 18px
+  line-height: calc(1rem * 1.5);
+  font-family: $font-primary;
+  color: $color-copy;
+
+  &:hover {
+    color: $color-main;
+    text-decoration: none;
+  }
 }
 
 .small-footer-link {

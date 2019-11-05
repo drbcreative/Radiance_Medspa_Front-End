@@ -17,19 +17,25 @@
       top: 0px;
       left: 0;
       box-shadow: 0 0 50px rgba($color-black, .2);
+      transition: all .2s ease-in-out;
 
       &::after {
-        content: url('../../images/logo-header.svg');
+        content: url('../images/logo-header.svg');
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
+
+      &.show {
+        opacity: 0;
+        transition: all .2s ease-in-out;
+      }
     }
   }
 
   &.show {
-    background: rgba($color-light, 1);
+    background: rgba($color-white, 1);
     transition: all .3s ease-in-out;
     box-shadow: 0 6px 8px rgba($color-black, .1);
   }
@@ -46,8 +52,9 @@
     transition: all .3s ease-in-out;
 
     &.show {
-      width: 180px;
+      width: 100px;
       transition: all .3s ease-in-out;
+      display: block !important;
     }
   }
 
@@ -68,6 +75,12 @@
   .navbar-collapse {
     @include isLarge {
       height: 100px;
+      transition: all .2s ease-in-out;
+
+      &.show {
+        height: 50px;
+        transition: all .2s ease-in-out;
+      }
     }
   }
 }
@@ -97,7 +110,7 @@
   position: relative;
 
   &::after {
-    content: url('../../images/nav-divider.png');
+    content: url('../images/nav-divider.png');
     color: $color-light-accent;
     position: absolute;
     top: 50%;

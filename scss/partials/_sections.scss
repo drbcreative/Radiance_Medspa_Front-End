@@ -4,7 +4,7 @@
 
 /* hero ********************************************************************* */
 .hero {
-  background: url('../../images/hero-bg@2x.jpg') center left / cover;
+  background: url('../images/hero-bg@2x.jpg') center left / cover;
   padding: 40px 20px;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
 
   @include isXLarge {
     height: 764px;
-    background: url('../../images/hero-bg@2x.jpg') center / cover;
+    background: url('../images/hero-bg@2x.jpg') center / cover;
     margin-top: 128.59px;
   }
 
@@ -153,7 +153,7 @@
 
     .col-left {
       height: 50vh;
-      background: url('../../images/laser-ipl-img@2x.jpg') center / cover;
+      background: url('../images/laser-ipl-img@2x.jpg') center / cover;
 
       @include isLarge {
         height: inherit;
@@ -161,12 +161,14 @@
     }
 
     .col-right {
-      background: url('../../images/laser-ipl-bg@2x.jpg') center / cover;
+      background: url('../images/laser-ipl-bg@2x.jpg') center / cover;
       padding: 20px 20px;
       display: flex;
       align-items: center;
 
       .section-info {
+        opacity: 0;
+
         p {
           max-width: 520px;
         }
@@ -192,13 +194,64 @@
 /* about us ***************************************************************** */
 .about-us {
   padding: 40px 20px;
+  opacity: 0;
+
+  @include isRetina {
+    padding: 80px 20px;
+  }
 
   .containerish {
-    .slide-show {
-      height: 300px;
+    .slide-show-wrapper {
+      position: relative;
+
+      .slider-nav {
+        // background: red;
+        position: absolute;
+        width: 100%;
+        z-index: 99;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+
+        .arrow-left,
+        .arrow-right {
+          background: $color-main;
+          height: 47px;
+          width: 57px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1rem;
+          cursor: pointer;
+          @include linkFade;
+
+          &:hover {
+            background: $color-light-accent;
+            @include linkFade;
+          }
+
+          @include isXLarge {
+            height: 87px;
+            width: 77px;
+          }
+        }
+      }
+
+      .slide-show {
+        height: auto;
+        width: 93%;
+        margin: 0 auto;
+
+        .slide {
+          max-width: 90%;
+          // margin: 0 auto;
+        }
+      }
     }
 
     .section-info {
+      margin-top: 2rem;
       text-align: center;
       padding: 20px;
 
@@ -212,7 +265,7 @@
 
 /* botox - fillers ********************************************************** */
 .botox-fillers {
-  background: url('../../images/botox-fillers-bg@2x.jpg') center / cover;
+  background: url('../images/botox-fillers-bg@2x.jpg') center / cover;
   padding: 40px 0;
 
   @include isLarge {
@@ -241,6 +294,8 @@
 
     .col-left,
     .col-right {
+      opacity: 0;
+
       img {
         box-shadow: 0 3px 50px rgba($color-black, .15);
       }
@@ -254,7 +309,8 @@
 
 /* sculpsure **************************************************************** */
 .sculpsure {
-  background: url('../../images/sculpsure-bg@2x.jpg') center / cover;
+  background: url('../images/sculpsure-bg@2x.jpg') center / cover;
+  opacity: 0;
 
   @include isMedium {
     height: 600px;
@@ -306,7 +362,7 @@
 
 /* hair removal ************************************************************* */
 .hair-removal {
-  background: url('../../images/hair-removal-bg@2x.jpg') center / cover;
+  background: url('../images/hair-removal-bg@2x.jpg') center / cover;
 
   @include isMedium {
     padding: 60px 0;
@@ -321,9 +377,11 @@
 
     .section-img {
       box-shadow: 0 3px 50px rgba($color-black, .16);
+      opacity: 0;
     }
 
     .section-info {
+      opacity: 0;
       padding: 20px;
       text-align: center;
       max-width: 714px;
@@ -334,7 +392,8 @@
 
 /* chem peels and facials *************************************************** */
 .chem-peels {
-  background: url('../../images/chemical-peel-bg@2x.jpg') center / cover;
+  background: url('../images/chemical-peel-bg@2x.jpg') center / cover;
+  opacity: 0;
 
   @include isMedium {
     height: 600px;
@@ -385,8 +444,9 @@
 
 /* consultation ************************************************************* */
 .consultation {
-  background: url('../../images/consultation-bg@2x.jpg') center / cover;
+  background: url('../images/consultation-bg@2x.jpg') center / cover;
   padding: 40px 20px;
+  opacity: 0;
 
   @include isLarge {
     padding: 80px 20px;

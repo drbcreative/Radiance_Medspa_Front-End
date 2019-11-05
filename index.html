@@ -8,8 +8,11 @@
   <title>Radiance Medspa</title>
 
   <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/vendor/db-animate.min.css" />
+  <!-- <link rel="stylesheet" href="css/vendor/db-animate.min.css" /> -->
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
   <link rel="stylesheet" href="css/theme.min.css" />
+  <link rel="stylesheet" href="css/vendor/animate.min.css" />
 </head>
 
 <body>
@@ -141,9 +144,9 @@
     <!-- laser & ipl -->
     <section class="laser">
       <div class="containerish">
-        <div class="col-left"></div>
+        <div class="col-left fade-in"></div>
         <div class="col-right">
-          <div class="section-info">
+          <div class="section-info" id="laser-info">
             <h2 class="color-dark">Laser & IPL</h2>
             <p class="body-copy color-copy mt-3 mb-4">
               Cynosure’s ICON laser system provides both skin revitalization and IPL (Intense Pulsed Light) treatments.
@@ -164,8 +167,16 @@
     <!-- about us -->
     <section class="about-us">
       <div class="containerish">
-        <div class="slide-show">
-          Come back to this later
+        <div class="slide-show-wrapper">
+          <div class="slider-nav">
+            <i class="fas fa-chevron-left arrow-left color-white"></i>
+            <i class="fas fa-chevron-right arrow-right color-white"></i>
+          </div>
+          <div class="slide-show">
+            <img src="images/slide-1.jpg" alt="" class="slide">
+            <img src="images/slide-2.jpg" alt="" class="slide">
+            <img src="images/slide-3.jpg" alt="" class="slide">
+          </div>
         </div>
         <div class="section-info">
           <h2 class="color-dark">About Us</h2>
@@ -186,7 +197,7 @@
     <!-- botox-fillers -->
     <section class="botox-fillers">
       <div class="containerish">
-        <div class="col-left">
+        <div class="col-left" id="botox">
           <img src="images/botox-img@2x.jpg" alt="">
           <div class="section-info mt-2 mt-xl-3">
             <h2 class="color-dark">Botox</h2>
@@ -202,7 +213,7 @@
             </div>
           </div>
         </div>
-        <div class="col-right">
+        <div class="col-right" id="fillers">
           <img src="images/fillers-img@2x.jpg" alt="">
           <div class="section-info mt-2 mt-xl-3">
             <h2 class="color-dark">Fillers</h2>
@@ -245,8 +256,8 @@
     <!-- hair removal -->
     <section class="hair-removal">
       <div class="containerish">
-        <img src="images/hair-removal-img@2x.jpg" alt="" class="section-img mb-2 mb-lg-4">
-        <div class="section-info">
+        <img src="images/hair-removal-img@2x.jpg" alt="" class="section-img mb-2 mb-lg-4" id="hair-img">
+        <div class="section-info" id="hair-info">
           <h2 class="color-dark">Hair Removal</h2>
           <p class="body-copy color-copy mt-3 mb-4">
             Your good side just became both sides with injectable fillers. Fillers correct and perfect by
@@ -267,7 +278,7 @@
     <!-- chem peels and facials -->
     <section class="chem-peels">
       <div class="containerish">
-        <div class="section-info">
+        <div class="section-info fade-in">
           <h2 class="color-dark">Chemical Peels <br> & Facials</h2>
           <p class="body-copy color-copy mt-3 mb-4">
             Schedule your peels and facials in Iowa City! Our Radiance Custom Facial provides a deep clean that
@@ -284,7 +295,7 @@
     <!-- /chem peels and facials -->
 
     <!-- request consultation -->
-    <section class="consultation">
+    <section class="consultation fade-in">
       <div class="containerish">
         <div class="section-info">
           <h2 class="color-dark">Request a Consultation</h2>
@@ -384,8 +395,19 @@
 
   <script src="js/vendor/jquery.min.js"></script>
   <script src="js/vendor/bootstrap.bundle.min.js"></script>
-  <script src="js/vendor/db-animate.min.js"></script>
-  <script src="js/app.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <!-- <script src="js/vendor/db-animate.min.js"></script> -->
+  <script src="js/app.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.slide-show').slick({
+        dots: true,
+        prevArrow: $('.arrow-left'),
+        nextArrow: $('.arrow-right')
+      });
+    });
+  </script>
 </body>
 
 </html>
